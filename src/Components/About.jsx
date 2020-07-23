@@ -85,9 +85,9 @@ const About = () => {
          
           <Typography >
            
-          <IconButton  onClick={<a href="https://github.com/Muhammad-Tayyab1"/>}>
+          <IconButton >
           <Badge  color="secondary">
-           <GitHubIcon/> 
+           <GitHubIcon/> 3
           </Badge>
         </IconButton>
           </Typography>
