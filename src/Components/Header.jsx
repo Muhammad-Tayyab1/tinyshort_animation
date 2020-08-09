@@ -11,9 +11,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     display: "flex",
-    background:
-      "linear-gradient(90deg, rgba(75,6,193,1) 0%, rgba(206,2,189,1) 100%)",
-    // background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+    //background: "linear-gradient(90deg, rgba(75,6,193,1) 0%, rgba(206,2,189,1) 100%)",
+     // background: "linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)",
+     // background: "radial-gradient(red, yellow, rgb(30, 144, 255))",
+     background: "linear-gradient(to bottom, red, #f06d06)",
     height: "90.8vh",
     marginTop: "60px",
   },
@@ -77,7 +78,7 @@ const Header = () => {
         />
       </Box>
       <Box component="div" className={classes.rightSide}>
-        <Typography variant="h4">React Bootcamp</Typography>
+        <Typography variant="h4">React Animations</Typography>
         <p>After this we will be able to work on freelance market place</p>
         <button>React Stack</button>
       </Box>

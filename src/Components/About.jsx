@@ -6,11 +6,12 @@ import ProfileImage from "../Images/image.jpg";
 
 import useWebAnimations, { fadeIn } from "@wellyshen/use-web-animations";
 import GitHubIcon from '@material-ui/icons/GitHub';
+import {Facebook, Instagram, Twitter,WhatsApp} from '@material-ui/icons'
 import Badge from '@material-ui/core/Badge';
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
-    background: "rgb(102,17,164)",
+    background: " linear-gradient(to right top, #e544a0, #d052b4, #b75fc3, #9a6acd, #7b73d1, #5e7fd8, #3b89d9, #0091d7, #009fd5, #00acce, #06b7c4, #4ac0b9)",
     minHeight: "500px",
     padding: "20xp",
     justifyContent: "center",
@@ -87,7 +88,27 @@ const About = () => {
            
           <IconButton >
           <Badge  color="secondary">
-           <GitHubIcon/> 3
+           <a href="https://github.com/Muhammad-Tayyab1/tinyshort_animation"><GitHubIcon/></a>
+          </Badge>
+        </IconButton>
+        <IconButton >
+          <Badge  color="secondary">
+          <a href="https://web.facebook.com/profile.php?id=100031034920869"><Facebook/></a> 
+          </Badge>
+        </IconButton>
+        <IconButton >
+          <Badge  color="secondary">
+          <a href="https://wa.me/qr/KZSAWNBXEXVME1"><WhatsApp/></a> 
+          </Badge>
+        </IconButton>
+        <IconButton >
+          <Badge  color="secondary">
+          <a href="https://twitter.com/Muhamma45165722"><Twitter/></a> 
+          </Badge>
+        </IconButton>
+        <IconButton >
+          <Badge  color="secondary">
+           <a href="https://www.instagram.com/muhammadtayyab575/?hl=en"><Instagram/></a>
           </Badge>
         </IconButton>
           </Typography>
